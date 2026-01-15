@@ -29,11 +29,12 @@ The core detection leverages state-of-the-art deep learning object detection mod
 **Create a Python virtual environment**
 ``` 
  python3 -m venv venv
-
 ```
 **Source the Virtual Environment**
 ```
 source ./venv/bin/activate
-
 ```
-
+**Run real-time detection on video camera**
+`
+python3 bot.py --video 0
+`
