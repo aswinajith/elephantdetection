@@ -22,9 +22,9 @@ The core detection leverages state-of-the-art deep learning object detection mod
 ## Usage
 
  **Clone the repository** 
-git clone https://github.com/aswinajith/elephantdetection.git
-cd elephantdetection
+- git clone https://github.com/aswinajith/elephantdetection.git
+- cd elephantdetection
 
 **Create a Python virtual environment**
-python3 -m venv venv
+- python3 -m venv venv
 
