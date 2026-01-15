@@ -9,6 +9,8 @@ Wild elephant detection is an important task for conservation and safety in regi
 - Detect elephants using a custom-trained YOLO model (`best.pt`)
 - Run inference on images and video streams
 - Integrate detection results with an interactive bot for alerts and automated responses
+- Trained on over 8000 images.
+- mAP value greater than 0.93
 
 The core detection leverages state-of-the-art deep learning object detection models similar to YOLOv8, which offer fast inference and high accuracy for real-time applications. :contentReference[oaicite:1]{index=1}
 
@@ -35,6 +37,6 @@ The core detection leverages state-of-the-art deep learning object detection mod
 source ./venv/bin/activate
 ```
 **Run real-time detection on video camera**
-`
+```
 python3 bot.py --video 0
-`
+```
