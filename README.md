@@ -27,5 +27,13 @@ The core detection leverages state-of-the-art deep learning object detection mod
  cd elephantdetection
 ```
 **Create a Python virtual environment**
-- python3 -m venv venv
+``` 
+ python3 -m venv venv
+
+```
+**Source the Virtual Environment**
+```
+source ./venv/bin/activate
+
+```
 
