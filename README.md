@@ -10,7 +10,7 @@ Wild elephant detection is an important task for conservation and safety in regi
 - Run inference on images and video streams
 - Integrate detection results with an interactive bot for alerts and automated responses
 - Trained on over 8000 images.
-- mAP value greater than 0.93
+- mAP value greater than 0.93.
 
 The core detection leverages state-of-the-art deep learning object detection models similar to YOLOv8, which offer fast inference and high accuracy for real-time applications. :contentReference[oaicite:1]{index=1}
 
