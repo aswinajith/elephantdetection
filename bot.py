@@ -12,7 +12,7 @@ picam2.preview_configuration.align()
 picam2.start()
 
 # Telegram bot token
-BOT_TOKEN = "7301257374:AAHhcYhBFN8s1EgSVKQzC51D4w8p4pyP-MM"
+BOT_TOKEN = "BOT_TOKEN"
 
 def get_chat_id():
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
